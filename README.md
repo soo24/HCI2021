@@ -120,7 +120,7 @@ It shows how many calories users have consumed in the past. In addition, the tar
 
 
 
- 5) Notification
+ 	5) Notification
 
 It is a function that helps users not forget to input food. If there is anything that has not been registered, the notification allows the user to enter the food without forgetting it.
 
