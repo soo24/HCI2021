@@ -17,6 +17,7 @@ Moon Kiwon / Lee Soui / Kim Sooyeon / Jeon Jongseok
   As the number of single-person households increases, more and more studies are being done on food consumption and food expenditure patterns of single-person households, and the results show that single-person households have different characteristics and consequent problems.
 
   1)Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
+
   2)When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
   It can also be expected that people in their 20s prefer consumption of instant or simple foods for convenience and economic reasons, and that nutrition is also not balanced.
 
@@ -40,7 +41,7 @@ In addition, since food habits are not formed in a short period of time, we moti
 ### System architecture
 
 ### Main Function
-1) Login(User information and goal of App)
+ 1) Login(User information and goal of App)
 
 Choose the user's information (name, height, weight) and the purpose of using the app (weight retention, weight loss, weight gain).
 
@@ -51,7 +52,7 @@ Choose the user's information (name, height, weight) and the purpose of using th
 
 
 
-2) Food recognition
+ 2) Food recognition
 
 When a user takes a picture of a food or enters a picture of the food, the user recognizes the food. Food recognition uses label detection from the Google Cloud Vision API. If you don't recognize food properly with pictures, you can type the name of the food in text.
 
@@ -94,7 +95,7 @@ for label in response.label_annotations:
 
 
 
-3) Calculating Calories
+ 3) Calculating Calories
 
 When a user enters food and quantity, it calculates the calories consumed by the user based on the food and amount recognized. Calories are shown to be the same as the calories consumed in the meal and the accumulated calories per day.
 
@@ -111,7 +112,7 @@ st.insert(END, '섭취 칼로리는 ' + str(totalCal) + 'kcal 입니다')
 
 
 
-4) Past Report
+ 4) Past Report
 
 It shows how many calories users have consumed in the past. In addition, the target calories are set differently depending on the goals set by the user when logging in, showing them as the calories consumed by the user.
 
@@ -119,7 +120,7 @@ It shows how many calories users have consumed in the past. In addition, the tar
 
 
 
-5) Notification
+ 5) Notification
 
 It is a function that helps users not forget to input food. If there is anything that has not been registered, the notification allows the user to enter the food without forgetting it.
 
@@ -186,32 +187,32 @@ However, if the recognition rate was low, there were many negative opinions abou
 Overall, users were optimistic about using the app.
 
 ### Insight
-- Our team was able to identify what users thought was important about design.
+ - Our team was able to identify what users thought was important about design.
 It was possible to understand that users value design more than they thought when using apps.
-- If it was not based on high recognition rates, the app would be less useful.
+ - If it was not based on high recognition rates, the app would be less useful.
 If the API's recognition rate was not high, i.e., the user's benefits were sharply reduced if the food was not recognized well.
-- Easy and simple UI/UX is important as it's not usually a bother.
+ - Easy and simple UI/UX is important as it's not usually a bother.
 It was confirmed that users should provide a clear UI so that they could experience a good UX when using it.
-- People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
+ - People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
 Users did not easily recognize the alarm, so in order to increase usability, they could see that the alarm should be clearly recognized by adding sound or effect to the alarm.
 
 ## Problems and Directions
-1) Problems and improvement plans
-- Full Design/UI Reconfiguration
+ 1) Problems and improvement plans
+ - Full Design/UI Reconfiguration
 As a whole, problems with design and UI have been raised.
--  Easy to create and use data stores.
+ -  Easy to create and use data stores.
 It is necessary to create a data store, store user's data, and make it easier to utilize.
-- Increase awareness with a variety of data
+ - Increase awareness with a variety of data
 Through various data, I realized that recognition rate should be increased.
-- Add sound or graphics to alerts to help users understand better.
+ - Add sound or graphics to alerts to help users understand better.
 Sound and graphics should make it easier for users to understand.
-- Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
+ - Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
 Nutrition information and calorie information can be difficult to understand for users. Information should be processed and provided to users for easy understanding and utilization.
 
-2) Future Developments Directions
-- User friendly and fashionable UI
-- Provides high profile through extensive data
-- Provides information that is easy for users to understand and use.
+ 2) Future Developments Directions
+  - User friendly and fashionable UI
+  - Provides high profile through extensive data
+  - Provides information that is easy for users to understand and use.
 
 
 
