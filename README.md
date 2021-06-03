@@ -1,16 +1,16 @@
 
 class 2_5
 
-## FORONE
+# FORONE
 
 "A diet management application for healthy eating habits of single-person households in their 20s"
 
-# Members
+## Members
 
 Moon Kiwon / Lee Soui / Kim Sooyeon / Jeon Jongseok
 
 ## Introduction
-# background
+### background
  
 Single-person households are households that make a living by cooking and sleeping in independent spaces alone, and according to the Ministry of Public Administration and Security's resident registration demographics, the proportion of single-person households is increasing every year from 34.9% in 2016 to 39.24% in 2020. Among them, the proportion of young people in their 20s and 30s living alone, especially for school and work, increased 1.26 times in four years from 887,000 in 2015 to 1.18 million in 2019.
 
@@ -25,12 +25,12 @@ We found out through background research that single-person households in their 
 
 
 
-# target user
+### target user
 The app's target users are one-person households in their 20s. 
 According to statistics such as diet habits by household type, age, or nutrient intake, single-person households in their 20s had the most irregular diet and uneven nutrition intake. For these reasons, we want to help single households in their 20s interact with healthcare apps to have the right eating habits, improve their eating habits in the long run, and lead a healthy life.
 
 
-# Goal
+### Goal
 The ForOne app provides information on proper eating habits and diets for single-person households in 20s with disproportionate diets and helps with continued use.
 Users can analyze and manage their diets through photographs rather than through them. When the application analyzes the calories and nutrients in the food and informs users of their eating habits, users can correct their eating habits and take care of their health according to the analysis.
 In addition, since food habits are not formed in a short period of time, we motivate users to eat the right meals by providing notification services so that people can use the application consistently.
@@ -39,10 +39,12 @@ In addition, since food habits are not formed in a short period of time, we moti
 
 
 
-# Main contents
-System architecture
-Main Function
-Login(User information and goal of App)
+## Main contents
+
+### System architecture
+
+### Main Function
+#### Login(User information and goal of App)
 Choose the user's information (name, height, weight) and the purpose of using the app (weight retention, weight loss, weight gain).
 
 
@@ -52,13 +54,14 @@ Choose the user's information (name, height, weight) and the purpose of using th
 
 
 
-# Food recognition
+#### Food recognition
 When a user takes a picture of a food or enters a picture of the food, the user recognizes the food. Food recognition uses label detection from the Google Cloud Vision API. If you don't recognize food properly with pictures, you can type the name of the food in text.
 
 
 
 
 This is a code that uses Google cloud vision api to recognize the user-selected photos in a photo file and to read description and scores of the food labels.
+
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'my first API-2020dd811d20.json'
 def openFile():
   global filename
@@ -93,7 +96,7 @@ for label in response.label_annotations:
 
 
 
-Calculating Calories
+#### Calculating Calories
 When a user enters food and quantity, it calculates the calories consumed by the user based on the food and amount recognized. Calories are shown to be the same as the calories consumed in the meal and the accumulated calories per day.
 
 
@@ -108,14 +111,14 @@ st.insert(END, '섭취 칼로리는 ' + str(totalCal) + 'kcal 입니다')
 
 
 
-Past Report
+#### Past Report
 It shows how many calories users have consumed in the past. In addition, the target calories are set differently depending on the goals set by the user when logging in, showing them as the calories consumed by the user.
 
 
 
 
 
-Notification
+#### Notification
 It is a function that helps users not forget to input food. If there is anything that has not been registered, the notification allows the user to enter the food without forgetting it.
 
 
@@ -135,17 +138,17 @@ alarm.geometry("200x200+500+300")
 label2 = Label(alarm, text='Meal Time!', width=120, height=150, fg='red', background='#FFFACD',
              bitmap='info', compound='top', font=45)
 label2.pack()
-# label2.place(x=50,y=50)
+#label2.place(x=50,y=50)
 time.sleep(1)
 self.mainloop()
 
 
-# Demo video
+### Demo video
 
-# Conclusion 
-Experimental methods, experimental results.
+## Conclusion 
+### Experimental methods, experimental results.
 
-Experimental Methods, Subjects
+#### Experimental Methods, Subjects
 Experimental methods: Experimental methods were conducted in the form of face-to-face interviews. The subjects were students in their early to mid-20s at Handong University, who currently live in dormitories or live outside and have problems managing their diet.
 Date: 2021.05.24-2021.05.25 Dinner time zone
 Venue: Student council office, Dormitory, Nehemiah Hall.
@@ -153,12 +156,12 @@ User information: Handong University male and female ages 20 to 26.
 The experiment was conducted when the moderator ordered the user. Quantitative data were measured during the experiment, such as the time taken by the user, hesitation, etc., and qualitative data was obtained as numerical data through interviews with the user after the experiment.
 
 
-Data
-Quantitative Data
+#### Data
+##### Quantitative Data
 The difference in time between when the user has done all the work alone and through the app.
 The difference in time when the user selects a photo and types it.
 The time the user responded to the alarm
-Qualitative data
+##### Qualitative data
 The difference between doing everything alone and through an app.
 The difference between the score and satisfaction of entering a picture of a meal and typing through a typewriter
 Comments on alarm functionality
@@ -168,8 +171,8 @@ Satisfaction score for overall design
 Comments on whether you think you'll use this app for diet management in the future
 
 
-Result
-Interpreting Data
+#### Result
+##### Interpreting Data
 Most students could feel greater benefits when managing their diet with the app than when they did it alone. This can be confirmed by the opinion that time has been reduced by half quantitatively and improved qualitatively. 
 In both input through typing and input through photography, both quantitative and qualitative data showed greater benefits of input through photography.
 Although the response to the alarm function was later than expected, the user's satisfaction was high.
@@ -177,7 +180,7 @@ There was an evaluation that the overall design of the app was insufficient, and
 However, if the recognition rate was low, there were many negative opinions about using the app. 
 Overall, users were optimistic about using the app.
 
-Insight
+##### Insight
 1. Our team was able to identify what users thought was important about design.
 It was possible to understand that users value design more than they thought when using apps.
 2. If it was not based on high recognition rates, the app would be less useful.
@@ -186,8 +189,8 @@ If the API's recognition rate was not high, i.e., the user's benefits were sharp
 It was confirmed that users should provide a clear UI so that they could experience a good UX when using it.
 4. People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
 Users did not easily recognize the alarm, so in order to increase usability, they could see that the alarm should be clearly recognized by adding sound or effect to the alarm.
-Problems and Directions
-Problems and improvement plans
+### Problems and Directions
+#### Problems and improvement plans
 1. Full Design/UI Reconfiguration
 As a whole, problems with design and UI have been raised.
 2. Easy to create and use data stores.
@@ -199,14 +202,14 @@ Sound and graphics should make it easier for users to understand.
 5.Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
 Nutrition information and calorie information can be difficult to understand for users. Information should be processed and provided to users for easy understanding and utilization.
 
-Future Developments Directions
+#### Future Developments Directions
 1. User friendly and fashionable UI
 2. Provides high profile through extensive data
 3. Provides information that is easy for users to understand and use.
 
 
 
-# Reference
+## Reference
 
 [삼성전자 뛰쳐나와 만든 앱, 찍는 순간 칼로리가 나온다]
 https://news.joins.com/article/22973973
@@ -234,7 +237,7 @@ http://digitalchosun.dizzo.com/site/data/html_dir/2020/01/16/2020011680096.html
 이남의, 김성연 (2014). 20~30대 1인 가구를 위한 인간미 있는 세탁기 디자인 연구. 한국HCI학회학술대회, 279-282
 
 
-Statistic
+##### Statistic
  Korea Amway Korea Gallup
  Ministry of Public Administration and Security's resident registration demographics 
  National Statistical Office
