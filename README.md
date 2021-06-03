@@ -171,8 +171,8 @@ Satisfaction score for overall design
 Comments on whether you think you'll use this app for diet management in the future
 
 
-### Result
-#### Interpreting Data
+## Result
+### Interpreting Data
 Most students could feel greater benefits when managing their diet with the app than when they did it alone. This can be confirmed by the opinion that time has been reduced by half quantitatively and improved qualitatively. 
 In both input through typing and input through photography, both quantitative and qualitative data showed greater benefits of input through photography.
 Although the response to the alarm function was later than expected, the user's satisfaction was high.
@@ -180,7 +180,7 @@ There was an evaluation that the overall design of the app was insufficient, and
 However, if the recognition rate was low, there were many negative opinions about using the app. 
 Overall, users were optimistic about using the app.
 
-#### Insight
+### Insight
 1. Our team was able to identify what users thought was important about design.
 It was possible to understand that users value design more than they thought when using apps.
 2. If it was not based on high recognition rates, the app would be less useful.
@@ -189,8 +189,8 @@ If the API's recognition rate was not high, i.e., the user's benefits were sharp
 It was confirmed that users should provide a clear UI so that they could experience a good UX when using it.
 4. People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
 Users did not easily recognize the alarm, so in order to increase usability, they could see that the alarm should be clearly recognized by adding sound or effect to the alarm.
-### Problems and Directions
-#### Problems and improvement plans
+## Problems and Directions
+### Problems and improvement plans
 1. Full Design/UI Reconfiguration
 As a whole, problems with design and UI have been raised.
 2. Easy to create and use data stores.
@@ -202,7 +202,7 @@ Sound and graphics should make it easier for users to understand.
 5.Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
 Nutrition information and calorie information can be difficult to understand for users. Information should be processed and provided to users for easy understanding and utilization.
 
-#### Future Developments Directions
+### Future Developments Directions
 1. User friendly and fashionable UI
 2. Provides high profile through extensive data
 3. Provides information that is easy for users to understand and use.
