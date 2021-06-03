@@ -16,8 +16,8 @@ Moon Kiwon / Lee Soui / Kim Sooyeon / Jeon Jongseok
 
   As the number of single-person households increases, more and more studies are being done on food consumption and food expenditure patterns of single-person households, and the results show that single-person households have different characteristics and consequent problems.
 
-  - Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
-  -  When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
+  1.. Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
+  2.. When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
   It can also be expected that people in their 20s prefer consumption of instant or simple foods for convenience and economic reasons, and that nutrition is also not balanced.
 
   We found out through background research that single-person households in their 20s have problems with their eating habits compared to other households, and created a health care app to solve them.
@@ -40,7 +40,8 @@ In addition, since food habits are not formed in a short period of time, we moti
 ### System architecture
 
 ### Main Function
-- 1) Login(User information and goal of App)
+1) Login(User information and goal of App)
+
 Choose the user's information (name, height, weight) and the purpose of using the app (weight retention, weight loss, weight gain).
 
 
@@ -50,7 +51,8 @@ Choose the user's information (name, height, weight) and the purpose of using th
 
 
 
-- 2) Food recognition
+2) Food recognition
+
 When a user takes a picture of a food or enters a picture of the food, the user recognizes the food. Food recognition uses label detection from the Google Cloud Vision API. If you don't recognize food properly with pictures, you can type the name of the food in text.
 
 
@@ -92,7 +94,8 @@ for label in response.label_annotations:
 
 
 
-- 3) Calculating Calories
+3) Calculating Calories
+
 When a user enters food and quantity, it calculates the calories consumed by the user based on the food and amount recognized. Calories are shown to be the same as the calories consumed in the meal and the accumulated calories per day.
 
 
@@ -108,14 +111,16 @@ st.insert(END, '섭취 칼로리는 ' + str(totalCal) + 'kcal 입니다')
 
 
 
-- 4) Past Report
+4) Past Report
+
 It shows how many calories users have consumed in the past. In addition, the target calories are set differently depending on the goals set by the user when logging in, showing them as the calories consumed by the user.
 
 
 
 
 
-- 5) Notification
+5) Notification
+
 It is a function that helps users not forget to input food. If there is anything that has not been registered, the notification allows the user to enter the food without forgetting it.
 
 
@@ -155,11 +160,13 @@ The experiment was conducted when the moderator ordered the user. Quantitative d
 
 #### Data
 - Quantitative Data
+
 The difference in time between when the user has done all the work alone and through the app.
 The difference in time when the user selects a photo and types it.
 The time the user responded to the alarm
 
 - Qualitative data
+
 The difference between doing everything alone and through an app.
 The difference between the score and satisfaction of entering a picture of a meal and typing through a typewriter
 Comments on alarm functionality
@@ -179,29 +186,29 @@ However, if the recognition rate was low, there were many negative opinions abou
 Overall, users were optimistic about using the app.
 
 ### Insight
-1. Our team was able to identify what users thought was important about design.
+- Our team was able to identify what users thought was important about design.
 It was possible to understand that users value design more than they thought when using apps.
-2. If it was not based on high recognition rates, the app would be less useful.
+- If it was not based on high recognition rates, the app would be less useful.
 If the API's recognition rate was not high, i.e., the user's benefits were sharply reduced if the food was not recognized well.
-3. Easy and simple UI/UX is important as it's not usually a bother.
+- Easy and simple UI/UX is important as it's not usually a bother.
 It was confirmed that users should provide a clear UI so that they could experience a good UX when using it.
-4. People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
+- People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
 Users did not easily recognize the alarm, so in order to increase usability, they could see that the alarm should be clearly recognized by adding sound or effect to the alarm.
 
 ## Problems and Directions
-- Problems and improvement plans
-1. Full Design/UI Reconfiguration
+1) Problems and improvement plans
+- Full Design/UI Reconfiguration
 As a whole, problems with design and UI have been raised.
-2. Easy to create and use data stores.
+-  Easy to create and use data stores.
 It is necessary to create a data store, store user's data, and make it easier to utilize.
-3. Increase awareness with a variety of data
+- Increase awareness with a variety of data
 Through various data, I realized that recognition rate should be increased.
-4. Add sound or graphics to alerts to help users understand better.
+- Add sound or graphics to alerts to help users understand better.
 Sound and graphics should make it easier for users to understand.
-5.Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
+- Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
 Nutrition information and calorie information can be difficult to understand for users. Information should be processed and provided to users for easy understanding and utilization.
 
-- Future Developments Directions
+2)Future Developments Directions
 1. User friendly and fashionable UI
 2. Provides high profile through extensive data
 3. Provides information that is easy for users to understand and use.
@@ -233,17 +240,22 @@ https://www.yna.co.kr/view/AKR20160308155800030
 http://digitalchosun.dizzo.com/site/data/html_dir/2020/01/16/2020011680096.html
 
 김유경 (2018). 1인가구 근로자의 식사 관련 시간 분석 다인가구와의 비교 및 성별연령대별 차이를 중심으로. 한국가정관리학회 학술발표대회 자료집, 208-208.
+
 최미경, 박은선, 김미현 (2019). 1인 가구 성인의 가정간편식 이용과 식습관 실태. 대한지역사회영양학회지, 24(6), 476-484
+
 조필규, 오유진 (2019). 1인가구의 고용형태 및 연령별 혼자 식사(혼밥) 관련 식행동 비교. 대한지역사회영양학회지,  24(5), 408-421
+
 남소영, 이수경 (2018). 성연령별 1인가구와 다인가구의 식생활 및 영양상태 차이분석. 한국가정관리학회 학술발표대회 자료집, 87-87
+
 문희운, 양난미 (2019). 성인애착, 자기결정적 고독동기, 외로움의 수준에 따른 집단 분류와 우울, 스트레스 대처방식, 삶의 만족도의 집단 간 차이. 한국심리학회지: 상담 및 심리치료, 31(1), 129-154
+
 이남의, 김성연 (2014). 20~30대 1인 가구를 위한 인간미 있는 세탁기 디자인 연구. 한국HCI학회학술대회, 279-282
 
 
 #### Statistic
- Korea Amway Korea Gallup
- Ministry of Public Administration and Security's resident registration demographics 
- National Statistical Office
+Korea Amway Korea Gallup
+Ministry of Public Administration and Security's resident registration demographics 
+National Statistical Office
 
 
 - Google vision https://cloud.google.com/vision/docs/features-list
