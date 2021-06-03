@@ -148,7 +148,7 @@ self.mainloop()
 
 ### Demo video
 
-## 3. onclusion 
+## 3. Conclusion 
 ### Experimental methods, experimental results.
 
 #### Experimental Methods, Subjects
@@ -177,8 +177,8 @@ Satisfaction score for overall design
 Comments on whether you think you'll use this app for diet management in the future
 
 
-## Result
-### Interpreting Data
+### Result
+#### Interpreting Data
 Most students could feel greater benefits when managing their diet with the app than when they did it alone. This can be confirmed by the opinion that time has been reduced by half quantitatively and improved qualitatively. 
 In both input through typing and input through photography, both quantitative and qualitative data showed greater benefits of input through photography.
 Although the response to the alarm function was later than expected, the user's satisfaction was high.
@@ -186,7 +186,7 @@ There was an evaluation that the overall design of the app was insufficient, and
 However, if the recognition rate was low, there were many negative opinions about using the app. 
 Overall, users were optimistic about using the app.
 
-### Insight
+#### Insight
  - Our team was able to identify what users thought was important about design.
 It was possible to understand that users value design more than they thought when using apps.
  - If it was not based on high recognition rates, the app would be less useful.
@@ -196,7 +196,7 @@ It was confirmed that users should provide a clear UI so that they could experie
  - People did not respond easily to the alarm. We felt that we should design the sound and design of alarms more like alarms.
 Users did not easily recognize the alarm, so in order to increase usability, they could see that the alarm should be clearly recognized by adding sound or effect to the alarm.
 
-## Problems and Directions
+### Problems and Directions
  1) Problems and improvement plans
  	- Full Design/UI Reconfiguration
 As a whole, problems with design and UI have been raised.
