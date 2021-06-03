@@ -171,8 +171,8 @@ Satisfaction score for overall design
 Comments on whether you think you'll use this app for diet management in the future
 
 
-#### Result
-##### Interpreting Data
+### Result
+#### Interpreting Data
 Most students could feel greater benefits when managing their diet with the app than when they did it alone. This can be confirmed by the opinion that time has been reduced by half quantitatively and improved qualitatively. 
 In both input through typing and input through photography, both quantitative and qualitative data showed greater benefits of input through photography.
 Although the response to the alarm function was later than expected, the user's satisfaction was high.
@@ -180,7 +180,7 @@ There was an evaluation that the overall design of the app was insufficient, and
 However, if the recognition rate was low, there were many negative opinions about using the app. 
 Overall, users were optimistic about using the app.
 
-##### Insight
+#### Insight
 1. Our team was able to identify what users thought was important about design.
 It was possible to understand that users value design more than they thought when using apps.
 2. If it was not based on high recognition rates, the app would be less useful.
@@ -241,7 +241,7 @@ http://digitalchosun.dizzo.com/site/data/html_dir/2020/01/16/2020011680096.html
 이남의, 김성연 (2014). 20~30대 1인 가구를 위한 인간미 있는 세탁기 디자인 연구. 한국HCI학회학술대회, 279-282
 
 
-##### Statistic
+#### Statistic
  Korea Amway Korea Gallup
  Ministry of Public Administration and Security's resident registration demographics 
  National Statistical Office
