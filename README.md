@@ -148,7 +148,7 @@ self.mainloop()
 
 ### Demo video
 
-## Conclusion 
+## 3. onclusion 
 ### Experimental methods, experimental results.
 
 #### Experimental Methods, Subjects
@@ -216,7 +216,7 @@ Nutrition information and calorie information can be difficult to understand for
 
 
 
-## Reference
+## 4. Reference
 
 [삼성전자 뛰쳐나와 만든 앱, 찍는 순간 칼로리가 나온다]
 https://news.joins.com/article/22973973
