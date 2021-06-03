@@ -198,21 +198,21 @@ Users did not easily recognize the alarm, so in order to increase usability, the
 
 ## Problems and Directions
  1) Problems and improvement plans
- - Full Design/UI Reconfiguration
+ 	- Full Design/UI Reconfiguration
 As a whole, problems with design and UI have been raised.
- -  Easy to create and use data stores.
+ 	-  Easy to create and use data stores.
 It is necessary to create a data store, store user's data, and make it easier to utilize.
- - Increase awareness with a variety of data
+	 - Increase awareness with a variety of data
 Through various data, I realized that recognition rate should be increased.
- - Add sound or graphics to alerts to help users understand better.
+ 	- Add sound or graphics to alerts to help users understand better.
 Sound and graphics should make it easier for users to understand.
- - Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
+ 	- Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
 Nutrition information and calorie information can be difficult to understand for users. Information should be processed and provided to users for easy understanding and utilization.
 
  2) Future Developments Directions
-  - User friendly and fashionable UI
-  - Provides high profile through extensive data
-  - Provides information that is easy for users to understand and use.
+			- User friendly and fashionable UI
+  	- Provides high profile through extensive data
+  	- Provides information that is easy for users to understand and use.
 
 
 
