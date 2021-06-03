@@ -74,7 +74,7 @@ def openFile():
   imglabel1.place(x=115, y=50)
   print(filename)
   client = vision.ImageAnnotatorClient()
-  # 이미지 읽기
+  #이미지 읽기
   with io.open(filename, 'rb') as image_file:
       content = image_file.read()
   image = types.Image()
@@ -223,12 +223,16 @@ https://cm.asiae.co.kr/article/2020060909252341959
 
 [서울 20~30대 1인가구, 식사 불규칙…영양섭취도 부실]
 https://www.donga.com/news/Society/article/all/20200404/100496932/1
+
 [1인가구 연령대별 식생활은 어떠한가?]
 https://www.si.re.kr/node/63175
+
 [1인가구, 식사 불규칙, 영양 섭취 부실]
 https://www.yna.co.kr/view/AKR20160308155800030
+
 [2020년 모바일 현황 보고서, 한국은 건강 및 피트니스 앱 2년전 보다 570% 더 많이 사용]
 http://digitalchosun.dizzo.com/site/data/html_dir/2020/01/16/2020011680096.html
+
 김유경 (2018). 1인가구 근로자의 식사 관련 시간 분석 다인가구와의 비교 및 성별연령대별 차이를 중심으로. 한국가정관리학회 학술발표대회 자료집, 208-208.
 최미경, 박은선, 김미현 (2019). 1인 가구 성인의 가정간편식 이용과 식습관 실태. 대한지역사회영양학회지, 24(6), 476-484
 조필규, 오유진 (2019). 1인가구의 고용형태 및 연령별 혼자 식사(혼밥) 관련 식행동 비교. 대한지역사회영양학회지,  24(5), 408-421
