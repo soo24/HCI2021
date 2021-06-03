@@ -10,17 +10,17 @@ class 2_5
 Moon Kiwon / Lee Soui / Kim Sooyeon / Jeon Jongseok
 
 ## Introduction
-### background
+ ### background
  
-Single-person households are households that make a living by cooking and sleeping in independent spaces alone, and according to the Ministry of Public Administration and Security's resident registration demographics, the proportion of single-person households is increasing every year from 34.9% in 2016 to 39.24% in 2020. Among them, the proportion of young people in their 20s and 30s living alone, especially for school and work, increased 1.26 times in four years from 887,000 in 2015 to 1.18 million in 2019.
+  Single-person households are households that make a living by cooking and sleeping in independent spaces alone, and according to the Ministry of Public Administration and Security's resident registration demographics, the proportion of single-person households is increasing every year from 34.9% in 2016 to 39.24% in 2020. Among them, the proportion of young people in their 20s and 30s living alone, especially for school and work, increased 1.26 times in four years from 887,000 in 2015 to 1.18 million in 2019.
 
-As the number of single-person households increases, more and more studies are being done on food consumption and food expenditure patterns of single-person households, and the results show that single-person households have different characteristics and consequent problems.
+  As the number of single-person households increases, more and more studies are being done on food consumption and food expenditure patterns of single-person households, and the results show that single-person households have different characteristics and consequent problems.
 
-1) Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
-2) When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
-It can also be expected that people in their 20s prefer consumption of instant or simple foods for convenience and economic reasons, and that nutrition is also not balanced.
+  1) Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
+  2) When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
+  It can also be expected that people in their 20s prefer consumption of instant or simple foods for convenience and economic reasons, and that nutrition is also not balanced.
 
-We found out through background research that single-person households in their 20s have problems with their eating habits compared to other households, and created a health care app to solve them.
+  We found out through background research that single-person households in their 20s have problems with their eating habits compared to other households, and created a health care app to solve them.
 
 
 
