@@ -10,7 +10,7 @@ class 2_5
 Moon Kiwon / Lee Soui / Kim Sooyeon / Jeon Jongseok
 
 ## Introduction
- ### background
+ ### -background
  
   Single-person households are households that make a living by cooking and sleeping in independent spaces alone, and according to the Ministry of Public Administration and Security's resident registration demographics, the proportion of single-person households is increasing every year from 34.9% in 2016 to 39.24% in 2020. Among them, the proportion of young people in their 20s and 30s living alone, especially for school and work, increased 1.26 times in four years from 887,000 in 2015 to 1.18 million in 2019.
 
