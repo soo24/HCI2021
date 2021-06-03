@@ -16,8 +16,8 @@ Moon Kiwon / Lee Soui / Kim Sooyeon / Jeon Jongseok
 
   As the number of single-person households increases, more and more studies are being done on food consumption and food expenditure patterns of single-person households, and the results show that single-person households have different characteristics and consequent problems.
 
-  1.. Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
-  2.. When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
+  1)Single-person households have shorter meal-related hours except for snacks and drinks compared to multi-person households, and irregular meal times, with the lowest breakfast rate.
+  2)When you eat alone, you will have incorrect eating habits, such as fasting, eating out, nutritional imbalance, and the possibility of obesity. The percentage of single-person households eating alone is 90%, more than four times higher than that of multi-person households, which is about 20%.The word ’family meals’ is not just about family eating together, but they have an important impact on family members' formation and maintenance of proper eating habits by encountering various foods together and providing balanced meals, and the biggest problem when eating alone is poor eating.
   It can also be expected that people in their 20s prefer consumption of instant or simple foods for convenience and economic reasons, and that nutrition is also not balanced.
 
   We found out through background research that single-person households in their 20s have problems with their eating habits compared to other households, and created a health care app to solve them.
@@ -208,10 +208,10 @@ Sound and graphics should make it easier for users to understand.
 - Process and provide information that users can easily understand and utilize. (e.g., showing calories, what exercise you need to do to lose weight, and what problems you may have if you lack the nutrients)
 Nutrition information and calorie information can be difficult to understand for users. Information should be processed and provided to users for easy understanding and utilization.
 
-2)Future Developments Directions
-1. User friendly and fashionable UI
-2. Provides high profile through extensive data
-3. Provides information that is easy for users to understand and use.
+2) Future Developments Directions
+- User friendly and fashionable UI
+- Provides high profile through extensive data
+- Provides information that is easy for users to understand and use.
 
 
 
